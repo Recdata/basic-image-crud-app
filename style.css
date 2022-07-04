@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background: rgb(197, 197, 197); */
+}
+body{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(245, 245, 245)!important;
+}
+.favicon{
+  width: 100%;
+    padding: 1rem;
+    background: white !important;
+    /* margin: 34px; */
+    height: 200px;
+    border-radius: 5px;
+}.fav-head{
+  font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4px;
+    background: #5882ff;
+    color: white;
+}.favico{
+  
+  margin: 10px;
+    /* padding: 1rem; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.w-100{
+  width: 100%;
+}
+.container{
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #fff;
+  /* box-shadow: 0px 0px 7px rgba(0,0,0,0.1); */
+  justify-content:  center;
+  box-shadow: 0px 0px 7px rgba(0,0,0,0.1);
+  border: 1px solid rgba(186, 186, 186, 0.1);
+}
+.justify-content{
+  justify-content: center;
+}
+form{
+    margin-top: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.1);
+    border: 1px solid rgba(186, 186, 186, 0.1);
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+  width: 700px;
+  padding: 30px;
+  border-radius: 5px;
+}
+.wrapper h5{
+    width: 35%;
+    color: rgb(61, 33, 20);
+}
+.wrapper .input-data{
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+.wrapper .input-data input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  padding: 18px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 13px;
+  color: grey;
+}
+.wrapper .input-data label{
+  position: absolute;
+  bottom: 10px;
+  left: 1rem;
+  background-color: white;
+  color: grey;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.btn{
+    background-color: rgb(15, 83, 255);
+    color: white;
+    border-radius: 3px;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+}
